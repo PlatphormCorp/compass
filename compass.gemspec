@@ -15,8 +15,8 @@ Gem::Specification.new do |gemspec|
   gemspec.summary = %q{A Real Stylesheet Framework}
 
   gemspec.add_dependency 'sass', '>= 3.3.13', '< 3.5'
-  gemspec.add_dependency 'compass-core', "~> #{File.read(File.join(File.dirname(__FILE__),"..","core","VERSION")).strip}"
-  gemspec.add_dependency 'compass-import-once', "~> #{File.read(File.join(File.dirname(__FILE__),"..","import-once","VERSION")).strip}"
+  gemspec.add_dependency 'compass-core', "~> 1.0.2"
+  gemspec.add_dependency 'compass-import-once', "~> 1.0.5"
   gemspec.add_dependency 'chunky_png', '~> 1.2'
   gemspec.add_dependency 'rb-fsevent', '>= 0.9.3'
   gemspec.add_dependency 'rb-inotify', '>= 0.9'
